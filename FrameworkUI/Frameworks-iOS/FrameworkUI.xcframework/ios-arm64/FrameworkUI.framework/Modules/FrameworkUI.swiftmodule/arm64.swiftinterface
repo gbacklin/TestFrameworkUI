@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FrameworkUI
+import Foundation
+@_exported import FrameworkUI
+import Swift
+import SwiftUI
+public let dateFormatter: Foundation.DateFormatter
+public struct MasterView : SwiftUI.View {
+  public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11FrameworkUI10MasterViewV4bodyQrvp", 0) 🦸
+}
+extension MasterView {
+  public init(dateArray: SwiftUI.Binding<[Foundation.Date]>)
+}
+public struct DetailView : SwiftUI.View {
+  public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11FrameworkUI10DetailViewV4bodyQrvp", 0) 🦸
+}
+extension DetailView {
+  public init(date: Foundation.Date)
+}
